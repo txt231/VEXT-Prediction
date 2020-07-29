@@ -14,6 +14,7 @@ NOTE: Might be more notes i forgot or missed
 - this does not account for spread, so if your weapon/grenade has spread it might not be as accurate
 - this might be expensive for some computers, right now its updating with 30 ticks in mind.
 - this does not account for pitch initialspeed diffrence (might not even be in this game?)
+- some ghetto raycast fix cause i cant add ignored entities, check **vu improvements** below
 
 ## VU Improvements needed for more accuracy:
 
