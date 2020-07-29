@@ -62,6 +62,7 @@ function Predict(weapon, deltaTime)
     while TimeToLive >= 0 do
         
         if Stop == true then
+			-- lua has no break, only gotos iirc
             return HitPositions
         end
 
@@ -104,6 +105,7 @@ function Predict(weapon, deltaTime)
 
                     if Velocity.magnitude >= ProjectileData.minBounceSpeed then
 
+						-- i cant remember why i added this check, might be for the ghetto raycast fix
                         if HitDistance > (deltaTime*0.2) then
 
                             Velocity = Velocity + hit.normal*(-2.0*Velocity:Dot(hit.normal))
