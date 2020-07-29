@@ -1,0 +1,12 @@
+{
+	"Name": "VEXT-Prediction",
+	"Authors": [ "txt" ],
+	"Description": "Predicts",
+	"Version": "1.0.0",
+	"HasWebUI": false,
+	"HasVeniceEXT": true,
+	"Dependencies": 
+	{
+		"veniceext": "^1.0.0"
+	}
+}
