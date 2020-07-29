@@ -23,3 +23,8 @@ NOTE: Might be more notes i forgot or missed
 - materialmanager needed for bullet penetration stuff, and can also do accurate damage prediction
 - raycast might not need checkdetailmesh **(not sure)**
 - raycast doesnt have ignored entities
+
+
+## Screenshot
+
+![Grenade example image](https://i.imgur.com/BunMqAn.png)
